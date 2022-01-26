@@ -58,12 +58,12 @@ disqusShortname = "AS"
   weight = 3
   url = "mailto:alex.shulyak.v@gmail.com"
 
-# Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+# # Menu links
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 2
+#   url = "about/"
