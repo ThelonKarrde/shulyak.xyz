@@ -1,0 +1,69 @@
+baseURL = 'http://shulyak.xyz/'
+languageCode = 'en-us'
+title = 'Aliaksandr Shulyak'
+theme = 'hugo-coder'
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "AS"
+
+[params]
+  author = "Aliaksandr Shulyak"
+  info = "Site Reliability Engineer"
+  description = "Aliaksandr Shulyak's personal website"
+  keywords = "blog,developer,personal,sre"
+  #avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2021
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+  hideCredits = true
+  hideCopyright = false
+
+#   customCSS = ["css/custom.css"]
+#   customSCSS = ["scss/custom.scss"]
+#   customJS = ["js/custom.js"]
+
+# [taxonomies]
+#   category = "categories"
+#   series = "series"
+#   tag = "tags"
+#   author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/ThelonKarrde"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/aliaksandr-shulyak/"
+[[params.social]]
+  name = "email"
+  icon = "fa fa-email-bulk fa-2x"
+  weight = 3
+  url = "mailto:alex.shulyak.v@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
