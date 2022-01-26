@@ -4,6 +4,8 @@ build:
 dev:
 	@hugo server
 
-deploy: build
+auth:
 	@az login
-	@az storage blob sync -c '$web' --account-name shulyakxyz -s ./public
+
+deploy: build
+	az storage blob sync -c '$web' --account-name shulyakxyz -s ./public
