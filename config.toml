@@ -1,9 +1,11 @@
-baseURL = 'http://shulyak.xyz/'
+baseURL = 'https://shulyak.xyz/'
 languageCode = 'en-us'
 title = 'Aliaksandr Shulyak'
 theme = 'hugo-coder'
 
-paginate = 20
+
+[pagination]
+pagerSize = 20
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
@@ -13,9 +15,9 @@ disqusShortname = "AS"
 
 [params]
   author = "Aliaksandr Shulyak"
-  info = "Site Reliability Engineer"
+  info = "Senoir Site Reliability Engineer | Team Lead"
   description = "Aliaksandr Shulyak's personal website"
-  keywords = "blog,developer,personal,sre"
+  keywords = "blog,developer,personal,sre,swe"
   #avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
@@ -54,9 +56,9 @@ disqusShortname = "AS"
   url = "https://www.linkedin.com/in/aliaksandr-shulyak/"
 [[params.social]]
   name = "email"
-  icon = "fa fa-email-bulk fa-2x"
+  icon = "fa fa-envelope fa-2x"
   weight = 3
-  url = "mailto:alex.shulyak.v@gmail.com"
+  url = "mailto:alex@shulyak.xyz"
 
 # # Menu links
 # [[menu.main]]

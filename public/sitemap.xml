@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://shulyak.xyz/</loc>
+    <loc>https://shulyak.xyz/</loc>
   </url><url>
-    <loc>http://shulyak.xyz/categories/</loc>
+    <loc>https://shulyak.xyz/categories/</loc>
   </url><url>
-    <loc>http://shulyak.xyz/tags/</loc>
+    <loc>https://shulyak.xyz/tags/</loc>
   </url>
 </urlset>
